@@ -1,0 +1,976 @@
+MPLINK 4.30.01, Linker
+Linker Map File - Created Sat Mar 03 12:13:55 2012
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+               _entry_scn       code   0x000000    program   0x000006
+  _RESET_INTERRUPT_VECTOR       code   0x000800    program   0x000006
+   _HIGH_INTERRUPT_VECTOR       code   0x000808    program   0x000002
+    _LOW_INTERRUPT_VECTOR       code   0x000818    program   0x000002
+                   .cinit    romdata   0x00082a    program   0x00000e
+             .code_user.o       code   0x000838    program   0x000354
+             .code_usb9.o       code   0x000b8c    program   0x0002e6
+       .code_usbctrltrf.o       code   0x000e72    program   0x000236
+           .code_usbdrv.o       code   0x0010a8    program   0x00015a
+           .code_usbgen.o       code   0x001202    program   0x0000d2
+        .romdata_usbdsc.o    romdata   0x0012d4    program   0x0000b8
+                     PROG       code   0x00138c    program   0x0000aa
+               _cinit_scn       code   0x001436    program   0x00009e
+             .code_main.o       code   0x0014d4    program   0x000036
+         .code_fxd1616u.o       code   0x00150a    program   0x00002c
+             _startup_scn       code   0x001536    program   0x00001c
+              D10TCYXCODE       code   0x001552    program   0x000016
+                    .code       code   0x001568    program   0x00000e
+           .code___init.o       code   0x001576    program   0x000002
+          .idata_user.o_i    romdata   0x001578    program   0x000015
+          .romdata_user.o    romdata   0x001578    program   0x000000
+        .romdata_usbgen.o    romdata   0x001578    program   0x000000
+    .romdata_usbctrltrf.o    romdata   0x001578    program   0x000000
+          .romdata_usb9.o    romdata   0x001578    program   0x000000
+      .romdata_fxd1616u.o    romdata   0x001578    program   0x000000
+        .romdata_usbdrv.o    romdata   0x001578    program   0x000000
+       .romdata_usbmmap.o    romdata   0x001578    program   0x000000
+          .romdata_main.o    romdata   0x001578    program   0x000000
+        .romdata___init.o    romdata   0x001578    program   0x000000
+         .romdata_c018i.o    romdata   0x001578    program   0x000000
+      .idata_fxd1616u.o_i    romdata   0x00158d    program   0x000000
+        .idata___init.o_i    romdata   0x00158d    program   0x000000
+        .idata_usbgen.o_i    romdata   0x00158d    program   0x000000
+    .idata_usbctrltrf.o_i    romdata   0x00158d    program   0x000000
+        .idata_usbdsc.o_i    romdata   0x00158d    program   0x000000
+          .idata_usb9.o_i    romdata   0x00158d    program   0x000000
+        .idata_usbdrv.o_i    romdata   0x00158d    program   0x000000
+       .idata_usbmmap.o_i    romdata   0x00158d    program   0x000000
+          .idata_main.o_i    romdata   0x00158d    program   0x000000
+         .idata_c018i.o_i    romdata   0x00158d    program   0x000000
+           .code_usbdsc.o       code   0x00158e    program   0x000000
+          .code_usbmmap.o       code   0x00158e    program   0x000000
+            .code_c018i.o       code   0x00158e    program   0x000000
+                MATH_DATA      udata   0x000000       data   0x000014
+                 .tmpdata      udata   0x000014       data   0x000002
+            .udata_user.o      udata   0x000060       data   0x00001d
+            .idata_user.o      idata   0x00007d       data   0x000015
+      .udata_usbctrltrf.o      udata   0x000092       data   0x00000d
+           .udata_c018i.o      udata   0x00009f       data   0x00000a
+          .udata_usbgen.o      udata   0x0000a9       data   0x000008
+          .udata_usbdrv.o      udata   0x0000b1       data   0x000005
+         .udata_usbmmap.o      udata   0x0000b6       data   0x000004
+            .udata_main.o      udata   0x0000ba       data   0x000003
+          .idata___init.o      idata   0x0000bd       data   0x000000
+          .udata___init.o      udata   0x0000bd       data   0x000000
+        .idata_fxd1616u.o      idata   0x0000bd       data   0x000000
+        .udata_fxd1616u.o      udata   0x0000bd       data   0x000000
+          .idata_usbgen.o      idata   0x0000bd       data   0x000000
+      .idata_usbctrltrf.o      idata   0x0000bd       data   0x000000
+          .idata_usbdsc.o      idata   0x0000bd       data   0x000000
+          .udata_usbdsc.o      udata   0x0000bd       data   0x000000
+            .idata_usb9.o      idata   0x0000bd       data   0x000000
+            .udata_usb9.o      udata   0x0000bd       data   0x000000
+          .idata_usbdrv.o      idata   0x0000bd       data   0x000000
+         .idata_usbmmap.o      idata   0x0000bd       data   0x000000
+            .idata_main.o      idata   0x0000bd       data   0x000000
+           .idata_c018i.o      idata   0x0000bd       data   0x000000
+                   .stack      udata   0x000300       data   0x000100
+                  usbram4      udata   0x000400       data   0x000038
+            SFR_UNBANKED0      udata   0x000f66       data   0x00009a
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000005      
+                            0x000800    0x000805      
+                            0x000808    0x000809      
+                            0x000818    0x000819      
+                            0x00082a    0x00158c      
+            3443 out of 24856 program addresses used, program memory utilization is 13%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+           BlinkUSBStatus   0x000a48    program     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\user\user.c
+               ClearArray   0x0011ea    program     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\usbdrv\usbdrv.c
+                    D10_1   0x001562    program     static C:\MCC18\src\traditional\delays\d10tcyx.asm
+                     D10x   0x00155a    program     static C:\MCC18\src\traditional\delays\d10tcyx.asm
+              Delay10TCYx   0x001552    program     extern C:\MCC18\src\traditional\delays\d10tcyx.asm
+               Delay250Us   0x000b80    program     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\user\user.c
+                 FXD1616U   0x00150a    program     extern C:\MCC18\src\traditional\math\fxd1616u.c
+                  INT3208   0x00138c    program     extern C:\MCC18\src\traditional\math\castFP08.asm
+         InitializeSystem   0x0014e4    program     static C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\main.c
+                ProcessIO   0x000848    program     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\user\user.c
+               ReadEEPROM   0x000b62    program     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\user\user.c
+          ServiceRequests   0x00085e    program     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\user\user.c
+        USBCheckBusStatus   0x0010a8    program     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\usbdrv\usbdrv.c
+       USBCheckStdRequest   0x000b8c    program     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\usb9\usb9.c
+         USBCtrlEPService   0x000e72    program     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\usbctrltrf\usbctrltrf.c
+ USBCtrlEPServiceComplete   0x001002    program     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\usbctrltrf\usbctrltrf.c
+      USBCtrlTrfInHandler   0x000ed8    program     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\usbctrltrf\usbctrltrf.c
+     USBCtrlTrfOutHandler   0x000eba    program     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\usbctrltrf\usbctrltrf.c
+      USBCtrlTrfRxService   0x000fb4    program     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\usbctrltrf\usbctrltrf.c
+   USBCtrlTrfSetupHandler   0x000ea8    program     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\usbctrltrf\usbctrltrf.c
+      USBCtrlTrfTxService   0x000f0e    program     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\usbctrltrf\usbctrltrf.c
+         USBDriverService   0x0010e0    program     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\usbdrv\usbdrv.c
+          USBErrorHandler   0x0011a4    program     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\usbdrv\usbdrv.c
+             USBGenInitEP   0x001202    program     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\class\generic\usbgen.c
+               USBGenRead   0x001278    program     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\class\generic\usbgen.c
+              USBGenWrite   0x00122c    program     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\class\generic\usbgen.c
+         USBModuleDisable   0x0010d2    program     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\usbdrv\usbdrv.c
+          USBModuleEnable   0x0010c4    program     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\usbdrv\usbdrv.c
+USBPrepareForNextSetupTrf   0x00108c    program     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\usbctrltrf\usbctrltrf.c
+  USBProtocolResetHandler   0x0011a8    program     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\usbdrv\usbdrv.c
+          USBRemoteWakeup   0x00116e    program     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\usbdrv\usbdrv.c
+            USBSoftDetach   0x0010dc    program     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\usbdrv\usbdrv.c
+          USBStallHandler   0x001196    program     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\usbdrv\usbdrv.c
+  USBStdFeatureReqHandler   0x000dd0    program     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\usb9\usb9.c
+      USBStdGetDscHandler   0x000c42    program     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\usb9\usb9.c
+   USBStdGetStatusHandler   0x000d3a    program     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\usb9\usb9.c
+      USBStdSetCfgHandler   0x000cf0    program     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\usb9\usb9.c
+               USBSuspend   0x00115e    program     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\usbdrv\usbdrv.c
+                 USBTasks   0x0014fc    program     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\main.c
+       USBWakeFromSuspend   0x001166    program     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\usbdrv\usbdrv.c
+               USB_CD_Ptr   0x001382    program     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\autofiles\usbdsc.c
+               USB_SD_Ptr   0x001386    program     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\autofiles\usbdsc.c
+          USB_SOF_Handler   0x001192    program     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\usbdrv\usbdrv.c
+                 UserInit   0x000838    program     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\user\user.c
+                  Usinage   0x000aee    program     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\user\user.c
+              WriteEEPROM   0x000b2c    program     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\user\user.c
+        _D10TCYXCODE_000A   0x00155c    program     static C:\MCC18\src\traditional\delays\d10tcyx.asm
+        _D10TCYXCODE_000C   0x00155e    program     static C:\MCC18\src\traditional\delays\d10tcyx.asm
+        _D10TCYXCODE_000E   0x001560    program     static C:\MCC18\src\traditional\delays\d10tcyx.asm
+              __FpUnPackA   0x0013da    program     extern C:\MCC18\src\traditional\math\UnpackFP.asm
+              __FpUnPackB   0x00140a    program     extern C:\MCC18\src\traditional\math\UnpackFP.asm
+      ___case_-1_lbl00016   0x000a22    program     static                          
+      ___case_65_lbl00007   0x0008da    program     static                          
+      ___case_69_lbl00008   0x0008f0    program     static                          
+      ___case_80_lbl00012   0x000952    program     static                          
+      ___case_81_lbl00013   0x0009ba    program     static                          
+      ___case_82_lbl00015   0x0009f4    program     static                          
+      ___case_83_lbl00009   0x000906    program     static                          
+      ___case_84_lbl00006   0x0008ae    program     static                          
+      ___case_85_lbl00014   0x0009ce    program     static                          
+      ___default_lbl00017   0x000a26    program     static                          
+           ___if_lbl00018   0x000a46    program     static                          
+           ___if_lbl00019   0x000a46    program     static                          
+           ___if_lbl00020   0x000a46    program     static                          
+       ___return_lbl00000   0x000804    program     static                          
+       ___return_lbl00000   0x001534    program     static                          
+       ___return_lbl00000   0x000004    program     static                          
+       ___return_lbl00001   0x001550    program     static                          
+       ___return_lbl00002   0x0014d2    program     static                          
+       ___return_lbl00004   0x000a46    program     static                          
+       ___return_lbl00042   0x001200    program     static                          
+   ___switchexit_lbl00005   0x000a28    program     static                          
+        ___while_lbl00010   0x000926    program     static                          
+        ___while_lbl00011   0x000932    program     static                          
+        ___while_lbl00043   0x0011f2    program     static                          
+        ___while_lbl00044   0x001200    program     static                          
+                   __init   0x001576    program     extern C:\MCC18\src\traditional\stdclib\__init.c
+            __zero_memory   0x001568    program     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                _do_cinit   0x001436    program     extern C:\MCC18\src\traditional\startup\c018i.c
+                   _entry   0x000000    program     extern C:\MCC18\src\traditional\startup\c018i.c
+                _high_ISR   0x000808    program     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\main.c
+                 _low_ISR   0x000818    program     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\main.c
+                   _reset   0x000800    program     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\main.c
+                 _startup   0x001536    program     extern C:\MCC18\src\traditional\startup\c018i.c
+                    cfg01   0x0012e6    program     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\autofiles\usbdsc.c
+               clear_loop   0x00156e    program     static C:\MCC18\src\traditional\proc\p18F2455.asm
+                copy_loop   0x0014a8    program     static                          
+            copy_one_byte   0x0014ae    program     static                          
+               device_dsc   0x0012d4    program     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\autofiles\usbdsc.c
+                     done   0x0014d2    program     static                          
+             done_copying   0x0014bc    program     static                          
+                  endloop   0x001530    program     static                          
+                    jExit   0x0013d8    program     static C:\MCC18\src\traditional\math\castFP08.asm
+                    jLoop   0x0013c0    program     static C:\MCC18\src\traditional\math\castFP08.asm
+                jLoopExit   0x0013ce    program     static C:\MCC18\src\traditional\math\castFP08.asm
+                     jMax   0x00139c    program     static C:\MCC18\src\traditional\math\castFP08.asm
+                  jMaxNeg   0x0013a6    program     static C:\MCC18\src\traditional\math\castFP08.asm
+                  jMaxPos   0x0013a0    program     static C:\MCC18\src\traditional\math\castFP08.asm
+                  jNotInf   0x0013b0    program     static C:\MCC18\src\traditional\math\castFP08.asm
+                  jUnpkA1   0x0013e4    program     static C:\MCC18\src\traditional\math\UnpackFP.asm
+                  jUnpkA2   0x0013fc    program     static C:\MCC18\src\traditional\math\UnpackFP.asm
+                 jUnpkANZ   0x0013f2    program     static C:\MCC18\src\traditional\math\UnpackFP.asm
+                  jUnpkB1   0x001414    program     static C:\MCC18\src\traditional\math\UnpackFP.asm
+                  jUnpkB2   0x00142c    program     static C:\MCC18\src\traditional\math\UnpackFP.asm
+                 jUnpkBNZ   0x001422    program     static C:\MCC18\src\traditional\math\UnpackFP.asm
+                 jUnpkNaN   0x001406    program     static C:\MCC18\src\traditional\math\UnpackFP.asm
+                    jZero   0x0013ac    program     static C:\MCC18\src\traditional\math\castFP08.asm
+                     loop   0x001546    program     static                          
+                     loop   0x001514    program     static                          
+                     main   0x0014d4    program     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\main.c
+                    sd000   0x001306    program     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\autofiles\usbdsc.c
+                    sd001   0x00130a    program     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\autofiles\usbdsc.c
+                    sd002   0x00133e    program     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\autofiles\usbdsc.c
+                     test   0x001450    program     static                          
+                   ADCON0   0x000fc2       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+               ADCON0bits   0x000fc2       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                   ADCON1   0x000fc1       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+               ADCON1bits   0x000fc1       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                   ADCON2   0x000fc0       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+               ADCON2bits   0x000fc0       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                    ADRES   0x000fc3       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                   ADRESH   0x000fc4       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                   ADRESL   0x000fc3       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                        B   0x0000bb       data     static C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\main.c
+                  BAUDCON   0x000fb8       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+              BAUDCONbits   0x000fb8       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                      BSR   0x000fe0       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                   CCP1AS   0x000fb6       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+               CCP1ASbits   0x000fb6       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                  CCP1CON   0x000fbd       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+              CCP1CONbits   0x000fbd       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                  CCP1DEL   0x000fb7       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+              CCP1DELbits   0x000fb7       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                  CCP2CON   0x000fba       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+              CCP2CONbits   0x000fba       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                    CCPR1   0x000fbe       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                   CCPR1H   0x000fbf       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                   CCPR1L   0x000fbe       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                    CCPR2   0x000fbb       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                   CCPR2H   0x000fbc       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                   CCPR2L   0x000fbb       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                    CMCON   0x000fb4       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                CMCONbits   0x000fb4       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                   CVRCON   0x000fb5       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+               CVRCONbits   0x000fb5       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                     Code   0x000072       data     static C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\user\user.c
+              CtrlTrfData   0x000420       data     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\usbmmap.c
+                     DDRA   0x000f92       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                 DDRAbits   0x000f92       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                     DDRB   0x000f93       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                 DDRBbits   0x000f93       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                     DDRC   0x000f94       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                 DDRCbits   0x000f94       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                  ECCP1AS   0x000fb6       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+              ECCP1ASbits   0x000fb6       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                 ECCP1DEL   0x000fb7       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+             ECCP1DELbits   0x000fb7       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                    EEADR   0x000fa9       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                   EECON1   0x000fa6       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+               EECON1bits   0x000fa6       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                   EECON2   0x000fa7       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                   EEDATA   0x000fa8       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                     FSR0   0x000fe9       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                    FSR0H   0x000fea       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                    FSR0L   0x000fe9       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                     FSR1   0x000fe1       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                    FSR1H   0x000fe2       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                    FSR1L   0x000fe1       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                     FSR2   0x000fd9       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                    FSR2H   0x000fda       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                    FSR2L   0x000fd9       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+               GIE_Status   0x000079       data     static C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\user\user.c
+                  HLVDCON   0x000fd2       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+              HLVDCONbits   0x000fd2       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                    INDF0   0x000fef       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                    INDF1   0x000fe7       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                    INDF2   0x000fdf       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                   INTCON   0x000ff2       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                  INTCON2   0x000ff1       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+              INTCON2bits   0x000ff1       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                  INTCON3   0x000ff0       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+              INTCON3bits   0x000ff0       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+               INTCONbits   0x000ff2       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                     IPR1   0x000f9f       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                 IPR1bits   0x000f9f       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                     IPR2   0x000fa2       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                 IPR2bits   0x000fa2       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                     LATA   0x000f89       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                 LATAbits   0x000f89       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                     LATB   0x000f8a       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                 LATBbits   0x000f8a       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                     LATC   0x000f8b       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                 LATCbits   0x000f8b       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                   LVDCON   0x000fd2       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+               LVDCONbits   0x000fd2       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                   OSCCON   0x000fd3       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+               OSCCONbits   0x000fd3       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                  OSCTUNE   0x000f9b       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+              OSCTUNEbits   0x000f9b       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                       PC   0x000ff9       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                      PCL   0x000ff9       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                   PCLATH   0x000ffa       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                   PCLATU   0x000ffb       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                     PIE1   0x000f9d       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                 PIE1bits   0x000f9d       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                     PIE2   0x000fa0       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                 PIE2bits   0x000fa0       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                     PIR1   0x000f9e       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                 PIR1bits   0x000f9e       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                     PIR2   0x000fa1       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                 PIR2bits   0x000fa1       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                   PLUSW0   0x000feb       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                   PLUSW1   0x000fe3       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                   PLUSW2   0x000fdb       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                    PORTA   0x000f80       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                PORTAbits   0x000f80       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                    PORTB   0x000f81       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                PORTBbits   0x000f81       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                    PORTC   0x000f82       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                PORTCbits   0x000f82       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                    PORTE   0x000f84       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                PORTEbits   0x000f84       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                 POSTDEC0   0x000fed       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                 POSTDEC1   0x000fe5       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                 POSTDEC2   0x000fdd       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                 POSTINC0   0x000fee       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                 POSTINC1   0x000fe6       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                 POSTINC2   0x000fde       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                      PR2   0x000fcb       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                  PREINC0   0x000fec       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                  PREINC1   0x000fe4       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                  PREINC2   0x000fdc       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                     PROD   0x000ff3       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                    PRODH   0x000ff4       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                    PRODL   0x000ff3       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                     RCON   0x000fd0       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                 RCONbits   0x000fd0       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                    RCREG   0x000fae       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                    RCSTA   0x000fab       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                RCSTAbits   0x000fab       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                     SIGN   0x00000e       data     extern C:\MCC18\src\traditional\math\cmath18.asm
+                    SPBRG   0x000faf       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                   SPBRGH   0x000fb0       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                   SSPADD   0x000fc8       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                   SSPBUF   0x000fc9       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                  SSPCON1   0x000fc6       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+              SSPCON1bits   0x000fc6       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                  SSPCON2   0x000fc5       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+              SSPCON2bits   0x000fc5       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                  SSPSTAT   0x000fc7       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+              SSPSTATbits   0x000fc7       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                   STATUS   0x000fd8       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+               STATUSbits   0x000fd8       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                   STKPTR   0x000ffc       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+               STKPTRbits   0x000ffc       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                 SetupPkt   0x000418       data     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\usbmmap.c
+                    T0CON   0x000fd5       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                T0CONbits   0x000fd5       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                    T1CON   0x000fcd       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                T1CONbits   0x000fcd       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                    T2CON   0x000fca       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                T2CONbits   0x000fca       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                    T3CON   0x000fb1       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                T3CONbits   0x000fb1       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                   TABLAT   0x000ff5       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                   TBLPTR   0x000ff6       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                  TBLPTRH   0x000ff7       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                  TBLPTRL   0x000ff6       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                  TBLPTRU   0x000ff8       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                    TMR0H   0x000fd7       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                    TMR0L   0x000fd6       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                    TMR1H   0x000fcf       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                    TMR1L   0x000fce       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                     TMR2   0x000fcc       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                    TMR3H   0x000fb3       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                    TMR3L   0x000fb2       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                      TOS   0x000ffd       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                     TOSH   0x000ffe       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                     TOSL   0x000ffd       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                     TOSU   0x000fff       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                    TRISA   0x000f92       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                TRISAbits   0x000f92       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                    TRISB   0x000f93       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                TRISBbits   0x000f93       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                    TRISC   0x000f94       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                TRISCbits   0x000f94       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                    TXREG   0x000fad       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                    TXSTA   0x000fac       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                TXSTAbits   0x000fac       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                    UADDR   0x000f6e       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                UADDRbits   0x000f6e       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                     UCFG   0x000f6f       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                 UCFGbits   0x000f6f       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                     UCON   0x000f6d       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                 UCONbits   0x000f6d       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                     UEIE   0x000f6b       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                 UEIEbits   0x000f6b       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                     UEIR   0x000f6a       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                 UEIRbits   0x000f6a       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                     UEP0   0x000f70       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                 UEP0bits   0x000f70       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                     UEP1   0x000f71       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                    UEP10   0x000f7a       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                UEP10bits   0x000f7a       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                    UEP11   0x000f7b       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                UEP11bits   0x000f7b       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                    UEP12   0x000f7c       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                UEP12bits   0x000f7c       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                    UEP13   0x000f7d       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                UEP13bits   0x000f7d       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                    UEP14   0x000f7e       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                UEP14bits   0x000f7e       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                    UEP15   0x000f7f       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                UEP15bits   0x000f7f       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                 UEP1bits   0x000f71       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                     UEP2   0x000f72       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                 UEP2bits   0x000f72       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                     UEP3   0x000f73       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                 UEP3bits   0x000f73       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                     UEP4   0x000f74       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                 UEP4bits   0x000f74       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                     UEP5   0x000f75       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                 UEP5bits   0x000f75       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                     UEP6   0x000f76       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                 UEP6bits   0x000f76       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                     UEP7   0x000f77       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                 UEP7bits   0x000f77       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                     UEP8   0x000f78       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                 UEP8bits   0x000f78       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                     UEP9   0x000f79       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                 UEP9bits   0x000f79       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                     UFRM   0x000f66       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                    UFRMH   0x000f67       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                UFRMHbits   0x000f67       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                    UFRML   0x000f66       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                UFRMLbits   0x000f66       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                      UIE   0x000f69       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                  UIEbits   0x000f69       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                      UIR   0x000f68       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                  UIRbits   0x000f68       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                    USTAT   0x000f6c       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                USTATbits   0x000f6c       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                   WDTCON   0x000fd1       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+               WDTCONbits   0x000fd1       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                     WREG   0x000fe8       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                 __AARGB0   0x000007       data     extern C:\MCC18\src\traditional\math\aarg.asm
+                 __AARGB1   0x000006       data     extern C:\MCC18\src\traditional\math\aarg.asm
+                 __AARGB2   0x000005       data     extern C:\MCC18\src\traditional\math\aarg.asm
+                 __AARGB3   0x000004       data     extern C:\MCC18\src\traditional\math\aarg.asm
+                 __AARGB4   0x000003       data     extern C:\MCC18\src\traditional\math\aarg.asm
+                 __AARGB5   0x000002       data     extern C:\MCC18\src\traditional\math\aarg.asm
+                 __AARGB6   0x000001       data     extern C:\MCC18\src\traditional\math\aarg.asm
+                 __AARGB7   0x000000       data     extern C:\MCC18\src\traditional\math\aarg.asm
+                   __AEXP   0x000008       data     extern C:\MCC18\src\traditional\math\aarg.asm
+                 __BARGB0   0x00000c       data     extern C:\MCC18\src\traditional\math\barg.asm
+                 __BARGB1   0x00000b       data     extern C:\MCC18\src\traditional\math\barg.asm
+                 __BARGB2   0x00000a       data     extern C:\MCC18\src\traditional\math\barg.asm
+                 __BARGB3   0x000009       data     extern C:\MCC18\src\traditional\math\barg.asm
+                   __BEXP   0x00000d       data     extern C:\MCC18\src\traditional\math\barg.asm
+           __ClearArray:0   0x0000b3       data     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\usbdrv\usbdrv.c
+           __ClearArray:1   0x0000b5       data     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\usbdrv\usbdrv.c
+                __FPFLAGS   0x00000f       data     extern C:\MCC18\src\traditional\math\cmath18.asm
+            __FPFLAGSbits   0x00000f       data     extern C:\MCC18\src\traditional\math\cmath18.asm
+                  __REMB0   0x000003       data     extern C:\MCC18\src\traditional\math\aarg.asm
+                  __REMB1   0x000002       data     extern C:\MCC18\src\traditional\math\aarg.asm
+                  __REMB2   0x000001       data     extern C:\MCC18\src\traditional\math\aarg.asm
+                  __REMB3   0x000000       data     extern C:\MCC18\src\traditional\math\aarg.asm
+           __ReadEEPROM:0   0x00007a       data     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\user\user.c
+                   __TEMP   0x000013       data     extern C:\MCC18\src\traditional\math\temparg.asm
+                 __TEMPB0   0x000013       data     extern C:\MCC18\src\traditional\math\temparg.asm
+                 __TEMPB1   0x000012       data     extern C:\MCC18\src\traditional\math\temparg.asm
+                 __TEMPB2   0x000011       data     extern C:\MCC18\src\traditional\math\temparg.asm
+                 __TEMPB3   0x000010       data     extern C:\MCC18\src\traditional\math\temparg.asm
+           __USBGenRead:0   0x0000ae       data     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\class\generic\usbgen.c
+           __USBGenRead:1   0x0000b0       data     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\class\generic\usbgen.c
+          __USBGenWrite:0   0x0000aa       data     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\class\generic\usbgen.c
+          __USBGenWrite:1   0x0000ac       data     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\class\generic\usbgen.c
+              __Usinage:0   0x000072       data     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\user\user.c
+          __WriteEEPROM:0   0x000074       data     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\user\user.c
+          __WriteEEPROM:1   0x000078       data     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\user\user.c
+                  __tmp_0   0x000014       data     static C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\user\user.c
+                  __tmp_0   0x000014       data     static C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\usb9\usb9.c
+                    _dcnt   0x00007c       data     static C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\user\user.c
+                   buffer   0x0000ae       data     static C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\class\generic\usbgen.c
+                   buffer   0x0000aa       data     static C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\class\generic\usbgen.c
+             byte_to_read   0x00009d       data     static C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\usbctrltrf\usbctrltrf.c
+             byte_to_send   0x00009b       data     static C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\usbctrltrf\usbctrltrf.c
+                    count   0x0000b5       data     static C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\usbdrv\usbdrv.c
+                  counter   0x000060       data     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\user\user.c
+   ctrl_trf_session_owner   0x000093       data     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\usbctrltrf\usbctrltrf.c
+           ctrl_trf_state   0x000092       data     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\usbctrltrf\usbctrltrf.c
+                curr_byte   0x0000a2       data     static C:\MCC18\src\traditional\startup\c018i.c
+               curr_entry   0x0000a4       data     static C:\MCC18\src\traditional\startup\c018i.c
+                     data   0x000074       data     static C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\user\user.c
+               dataPacket   0x000069       data     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\user\user.c
+                 data_ptr   0x0000a6       data     static C:\MCC18\src\traditional\startup\c018i.c
+              delay_count   0x0000b1       data     static C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\usbdrv\usbdrv.c
+                    ep0Bi   0x000404       data     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\usbmmap.c
+                    ep0Bo   0x000400       data     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\usbmmap.c
+                    ep1Bi   0x00040c       data     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\usbmmap.c
+                    ep1Bo   0x000408       data     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\usbmmap.c
+                    ep2Bi   0x000414       data     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\usbmmap.c
+                    ep2Bo   0x000410       data     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\usbmmap.c
+                        i   0x0000ad       data     static C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\class\generic\usbgen.c
+                        i   0x00009a       data     static C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\usbctrltrf\usbctrltrf.c
+                    index   0x000071       data     static C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\user\user.c
+                led_count   0x000090       data     static C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\user\user.c
+                      len   0x0000b0       data     static C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\class\generic\usbgen.c
+                      len   0x0000ac       data     static C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\class\generic\usbgen.c
+              memory_data   0x00007b       data     static C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\user\user.c
+          memory_location   0x00007a       data     static C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\user\user.c
+          memory_location   0x000078       data     static C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\user\user.c
+                     pDst   0x000096       data     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\usbctrltrf\usbctrltrf.c
+                     pSrc   0x000094       data     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\usbctrltrf\usbctrltrf.c
+                     prom   0x00009f       data     static C:\MCC18\src\traditional\startup\c018i.c
+                 startAdr   0x0000b3       data     static C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\usbdrv\usbdrv.c
+                    timer   0x000073       data     static C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\user\user.c
+                trf_state   0x000061       data     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\user\user.c
+           usb_active_cfg   0x0000b8       data     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\usbmmap.c
+             usb_alt_intf   0x0000b9       data     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\usbmmap.c
+         usb_device_state   0x0000b6       data     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\usbmmap.c
+                 usb_stat   0x0000b7       data     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\usbmmap.c
+                usbgen_in   0x000430       data     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\usbmmap.c
+               usbgen_out   0x000428       data     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\usbmmap.c
+            usbgen_rx_len   0x0000a9       data     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\class\generic\usbgen.c
+            v_dureeImpuls   0x000063       data     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\user\user.c
+                   v_idle   0x000067       data     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\user\user.c
+           v_listePeriode   0x00007d       data     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\user\user.c
+                   v_pasX   0x00008b       data     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\user\user.c
+                   v_pasY   0x00008d       data     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\user\user.c
+                v_periode   0x000065       data     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\user\user.c
+                   v_test   0x0000bc       data     static C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\main.c
+                 v_usbOUT   0x0000ba       data     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\main.c
+                 v_usbOut   0x000064       data     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\user\user.c
+                 v_usined   0x00008f       data     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\user\user.c
+                v_vitesse   0x000062       data     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\user\user.c
+                   wCount   0x000098       data     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\usbctrltrf\usbctrltrf.c
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                   _entry   0x000000    program     extern C:\MCC18\src\traditional\startup\c018i.c
+       ___return_lbl00000   0x000004    program     static                          
+                   _reset   0x000800    program     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\main.c
+       ___return_lbl00000   0x000804    program     static                          
+                _high_ISR   0x000808    program     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\main.c
+                 _low_ISR   0x000818    program     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\main.c
+                 UserInit   0x000838    program     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\user\user.c
+                ProcessIO   0x000848    program     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\user\user.c
+          ServiceRequests   0x00085e    program     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\user\user.c
+      ___case_84_lbl00006   0x0008ae    program     static                          
+      ___case_65_lbl00007   0x0008da    program     static                          
+      ___case_69_lbl00008   0x0008f0    program     static                          
+      ___case_83_lbl00009   0x000906    program     static                          
+        ___while_lbl00010   0x000926    program     static                          
+        ___while_lbl00011   0x000932    program     static                          
+      ___case_80_lbl00012   0x000952    program     static                          
+      ___case_81_lbl00013   0x0009ba    program     static                          
+      ___case_85_lbl00014   0x0009ce    program     static                          
+      ___case_82_lbl00015   0x0009f4    program     static                          
+      ___case_-1_lbl00016   0x000a22    program     static                          
+      ___default_lbl00017   0x000a26    program     static                          
+   ___switchexit_lbl00005   0x000a28    program     static                          
+           ___if_lbl00018   0x000a46    program     static                          
+           ___if_lbl00019   0x000a46    program     static                          
+           ___if_lbl00020   0x000a46    program     static                          
+       ___return_lbl00004   0x000a46    program     static                          
+           BlinkUSBStatus   0x000a48    program     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\user\user.c
+                  Usinage   0x000aee    program     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\user\user.c
+              WriteEEPROM   0x000b2c    program     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\user\user.c
+               ReadEEPROM   0x000b62    program     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\user\user.c
+               Delay250Us   0x000b80    program     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\user\user.c
+       USBCheckStdRequest   0x000b8c    program     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\usb9\usb9.c
+      USBStdGetDscHandler   0x000c42    program     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\usb9\usb9.c
+      USBStdSetCfgHandler   0x000cf0    program     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\usb9\usb9.c
+   USBStdGetStatusHandler   0x000d3a    program     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\usb9\usb9.c
+  USBStdFeatureReqHandler   0x000dd0    program     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\usb9\usb9.c
+         USBCtrlEPService   0x000e72    program     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\usbctrltrf\usbctrltrf.c
+   USBCtrlTrfSetupHandler   0x000ea8    program     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\usbctrltrf\usbctrltrf.c
+     USBCtrlTrfOutHandler   0x000eba    program     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\usbctrltrf\usbctrltrf.c
+      USBCtrlTrfInHandler   0x000ed8    program     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\usbctrltrf\usbctrltrf.c
+      USBCtrlTrfTxService   0x000f0e    program     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\usbctrltrf\usbctrltrf.c
+      USBCtrlTrfRxService   0x000fb4    program     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\usbctrltrf\usbctrltrf.c
+ USBCtrlEPServiceComplete   0x001002    program     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\usbctrltrf\usbctrltrf.c
+USBPrepareForNextSetupTrf   0x00108c    program     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\usbctrltrf\usbctrltrf.c
+        USBCheckBusStatus   0x0010a8    program     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\usbdrv\usbdrv.c
+          USBModuleEnable   0x0010c4    program     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\usbdrv\usbdrv.c
+         USBModuleDisable   0x0010d2    program     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\usbdrv\usbdrv.c
+            USBSoftDetach   0x0010dc    program     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\usbdrv\usbdrv.c
+         USBDriverService   0x0010e0    program     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\usbdrv\usbdrv.c
+               USBSuspend   0x00115e    program     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\usbdrv\usbdrv.c
+       USBWakeFromSuspend   0x001166    program     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\usbdrv\usbdrv.c
+          USBRemoteWakeup   0x00116e    program     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\usbdrv\usbdrv.c
+          USB_SOF_Handler   0x001192    program     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\usbdrv\usbdrv.c
+          USBStallHandler   0x001196    program     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\usbdrv\usbdrv.c
+          USBErrorHandler   0x0011a4    program     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\usbdrv\usbdrv.c
+  USBProtocolResetHandler   0x0011a8    program     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\usbdrv\usbdrv.c
+               ClearArray   0x0011ea    program     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\usbdrv\usbdrv.c
+        ___while_lbl00043   0x0011f2    program     static                          
+       ___return_lbl00042   0x001200    program     static                          
+        ___while_lbl00044   0x001200    program     static                          
+             USBGenInitEP   0x001202    program     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\class\generic\usbgen.c
+              USBGenWrite   0x00122c    program     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\class\generic\usbgen.c
+               USBGenRead   0x001278    program     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\class\generic\usbgen.c
+               device_dsc   0x0012d4    program     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\autofiles\usbdsc.c
+                    cfg01   0x0012e6    program     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\autofiles\usbdsc.c
+                    sd000   0x001306    program     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\autofiles\usbdsc.c
+                    sd001   0x00130a    program     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\autofiles\usbdsc.c
+                    sd002   0x00133e    program     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\autofiles\usbdsc.c
+               USB_CD_Ptr   0x001382    program     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\autofiles\usbdsc.c
+               USB_SD_Ptr   0x001386    program     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\autofiles\usbdsc.c
+                  INT3208   0x00138c    program     extern C:\MCC18\src\traditional\math\castFP08.asm
+                     jMax   0x00139c    program     static C:\MCC18\src\traditional\math\castFP08.asm
+                  jMaxPos   0x0013a0    program     static C:\MCC18\src\traditional\math\castFP08.asm
+                  jMaxNeg   0x0013a6    program     static C:\MCC18\src\traditional\math\castFP08.asm
+                    jZero   0x0013ac    program     static C:\MCC18\src\traditional\math\castFP08.asm
+                  jNotInf   0x0013b0    program     static C:\MCC18\src\traditional\math\castFP08.asm
+                    jLoop   0x0013c0    program     static C:\MCC18\src\traditional\math\castFP08.asm
+                jLoopExit   0x0013ce    program     static C:\MCC18\src\traditional\math\castFP08.asm
+                    jExit   0x0013d8    program     static C:\MCC18\src\traditional\math\castFP08.asm
+              __FpUnPackA   0x0013da    program     extern C:\MCC18\src\traditional\math\UnpackFP.asm
+                  jUnpkA1   0x0013e4    program     static C:\MCC18\src\traditional\math\UnpackFP.asm
+                 jUnpkANZ   0x0013f2    program     static C:\MCC18\src\traditional\math\UnpackFP.asm
+                  jUnpkA2   0x0013fc    program     static C:\MCC18\src\traditional\math\UnpackFP.asm
+                 jUnpkNaN   0x001406    program     static C:\MCC18\src\traditional\math\UnpackFP.asm
+              __FpUnPackB   0x00140a    program     extern C:\MCC18\src\traditional\math\UnpackFP.asm
+                  jUnpkB1   0x001414    program     static C:\MCC18\src\traditional\math\UnpackFP.asm
+                 jUnpkBNZ   0x001422    program     static C:\MCC18\src\traditional\math\UnpackFP.asm
+                  jUnpkB2   0x00142c    program     static C:\MCC18\src\traditional\math\UnpackFP.asm
+                _do_cinit   0x001436    program     extern C:\MCC18\src\traditional\startup\c018i.c
+                     test   0x001450    program     static                          
+                copy_loop   0x0014a8    program     static                          
+            copy_one_byte   0x0014ae    program     static                          
+             done_copying   0x0014bc    program     static                          
+                     done   0x0014d2    program     static                          
+       ___return_lbl00002   0x0014d2    program     static                          
+                     main   0x0014d4    program     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\main.c
+         InitializeSystem   0x0014e4    program     static C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\main.c
+                 USBTasks   0x0014fc    program     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\main.c
+                 FXD1616U   0x00150a    program     extern C:\MCC18\src\traditional\math\fxd1616u.c
+                     loop   0x001514    program     static                          
+                  endloop   0x001530    program     static                          
+       ___return_lbl00000   0x001534    program     static                          
+                 _startup   0x001536    program     extern C:\MCC18\src\traditional\startup\c018i.c
+                     loop   0x001546    program     static                          
+       ___return_lbl00001   0x001550    program     static                          
+              Delay10TCYx   0x001552    program     extern C:\MCC18\src\traditional\delays\d10tcyx.asm
+                     D10x   0x00155a    program     static C:\MCC18\src\traditional\delays\d10tcyx.asm
+        _D10TCYXCODE_000A   0x00155c    program     static C:\MCC18\src\traditional\delays\d10tcyx.asm
+        _D10TCYXCODE_000C   0x00155e    program     static C:\MCC18\src\traditional\delays\d10tcyx.asm
+        _D10TCYXCODE_000E   0x001560    program     static C:\MCC18\src\traditional\delays\d10tcyx.asm
+                    D10_1   0x001562    program     static C:\MCC18\src\traditional\delays\d10tcyx.asm
+            __zero_memory   0x001568    program     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+               clear_loop   0x00156e    program     static C:\MCC18\src\traditional\proc\p18F2455.asm
+                   __init   0x001576    program     extern C:\MCC18\src\traditional\stdclib\__init.c
+                  __REMB3   0x000000       data     extern C:\MCC18\src\traditional\math\aarg.asm
+                 __AARGB7   0x000000       data     extern C:\MCC18\src\traditional\math\aarg.asm
+                 __AARGB6   0x000001       data     extern C:\MCC18\src\traditional\math\aarg.asm
+                  __REMB2   0x000001       data     extern C:\MCC18\src\traditional\math\aarg.asm
+                 __AARGB5   0x000002       data     extern C:\MCC18\src\traditional\math\aarg.asm
+                  __REMB1   0x000002       data     extern C:\MCC18\src\traditional\math\aarg.asm
+                 __AARGB4   0x000003       data     extern C:\MCC18\src\traditional\math\aarg.asm
+                  __REMB0   0x000003       data     extern C:\MCC18\src\traditional\math\aarg.asm
+                 __AARGB3   0x000004       data     extern C:\MCC18\src\traditional\math\aarg.asm
+                 __AARGB2   0x000005       data     extern C:\MCC18\src\traditional\math\aarg.asm
+                 __AARGB1   0x000006       data     extern C:\MCC18\src\traditional\math\aarg.asm
+                 __AARGB0   0x000007       data     extern C:\MCC18\src\traditional\math\aarg.asm
+                   __AEXP   0x000008       data     extern C:\MCC18\src\traditional\math\aarg.asm
+                 __BARGB3   0x000009       data     extern C:\MCC18\src\traditional\math\barg.asm
+                 __BARGB2   0x00000a       data     extern C:\MCC18\src\traditional\math\barg.asm
+                 __BARGB1   0x00000b       data     extern C:\MCC18\src\traditional\math\barg.asm
+                 __BARGB0   0x00000c       data     extern C:\MCC18\src\traditional\math\barg.asm
+                   __BEXP   0x00000d       data     extern C:\MCC18\src\traditional\math\barg.asm
+                     SIGN   0x00000e       data     extern C:\MCC18\src\traditional\math\cmath18.asm
+                __FPFLAGS   0x00000f       data     extern C:\MCC18\src\traditional\math\cmath18.asm
+            __FPFLAGSbits   0x00000f       data     extern C:\MCC18\src\traditional\math\cmath18.asm
+                 __TEMPB3   0x000010       data     extern C:\MCC18\src\traditional\math\temparg.asm
+                 __TEMPB2   0x000011       data     extern C:\MCC18\src\traditional\math\temparg.asm
+                 __TEMPB1   0x000012       data     extern C:\MCC18\src\traditional\math\temparg.asm
+                 __TEMPB0   0x000013       data     extern C:\MCC18\src\traditional\math\temparg.asm
+                   __TEMP   0x000013       data     extern C:\MCC18\src\traditional\math\temparg.asm
+                  __tmp_0   0x000014       data     static C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\user\user.c
+                  __tmp_0   0x000014       data     static C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\usb9\usb9.c
+                  counter   0x000060       data     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\user\user.c
+                trf_state   0x000061       data     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\user\user.c
+                v_vitesse   0x000062       data     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\user\user.c
+            v_dureeImpuls   0x000063       data     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\user\user.c
+                 v_usbOut   0x000064       data     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\user\user.c
+                v_periode   0x000065       data     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\user\user.c
+                   v_idle   0x000067       data     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\user\user.c
+               dataPacket   0x000069       data     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\user\user.c
+                    index   0x000071       data     static C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\user\user.c
+              __Usinage:0   0x000072       data     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\user\user.c
+                     Code   0x000072       data     static C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\user\user.c
+                    timer   0x000073       data     static C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\user\user.c
+                     data   0x000074       data     static C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\user\user.c
+          __WriteEEPROM:0   0x000074       data     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\user\user.c
+          memory_location   0x000078       data     static C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\user\user.c
+          __WriteEEPROM:1   0x000078       data     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\user\user.c
+               GIE_Status   0x000079       data     static C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\user\user.c
+           __ReadEEPROM:0   0x00007a       data     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\user\user.c
+          memory_location   0x00007a       data     static C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\user\user.c
+              memory_data   0x00007b       data     static C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\user\user.c
+                    _dcnt   0x00007c       data     static C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\user\user.c
+           v_listePeriode   0x00007d       data     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\user\user.c
+                   v_pasX   0x00008b       data     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\user\user.c
+                   v_pasY   0x00008d       data     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\user\user.c
+                 v_usined   0x00008f       data     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\user\user.c
+                led_count   0x000090       data     static C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\user\user.c
+           ctrl_trf_state   0x000092       data     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\usbctrltrf\usbctrltrf.c
+   ctrl_trf_session_owner   0x000093       data     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\usbctrltrf\usbctrltrf.c
+                     pSrc   0x000094       data     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\usbctrltrf\usbctrltrf.c
+                     pDst   0x000096       data     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\usbctrltrf\usbctrltrf.c
+                   wCount   0x000098       data     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\usbctrltrf\usbctrltrf.c
+                        i   0x00009a       data     static C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\usbctrltrf\usbctrltrf.c
+             byte_to_send   0x00009b       data     static C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\usbctrltrf\usbctrltrf.c
+             byte_to_read   0x00009d       data     static C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\usbctrltrf\usbctrltrf.c
+                     prom   0x00009f       data     static C:\MCC18\src\traditional\startup\c018i.c
+                curr_byte   0x0000a2       data     static C:\MCC18\src\traditional\startup\c018i.c
+               curr_entry   0x0000a4       data     static C:\MCC18\src\traditional\startup\c018i.c
+                 data_ptr   0x0000a6       data     static C:\MCC18\src\traditional\startup\c018i.c
+            usbgen_rx_len   0x0000a9       data     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\class\generic\usbgen.c
+                   buffer   0x0000aa       data     static C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\class\generic\usbgen.c
+          __USBGenWrite:0   0x0000aa       data     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\class\generic\usbgen.c
+                      len   0x0000ac       data     static C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\class\generic\usbgen.c
+          __USBGenWrite:1   0x0000ac       data     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\class\generic\usbgen.c
+                        i   0x0000ad       data     static C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\class\generic\usbgen.c
+                   buffer   0x0000ae       data     static C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\class\generic\usbgen.c
+           __USBGenRead:0   0x0000ae       data     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\class\generic\usbgen.c
+                      len   0x0000b0       data     static C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\class\generic\usbgen.c
+           __USBGenRead:1   0x0000b0       data     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\class\generic\usbgen.c
+              delay_count   0x0000b1       data     static C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\usbdrv\usbdrv.c
+                 startAdr   0x0000b3       data     static C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\usbdrv\usbdrv.c
+           __ClearArray:0   0x0000b3       data     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\usbdrv\usbdrv.c
+           __ClearArray:1   0x0000b5       data     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\usbdrv\usbdrv.c
+                    count   0x0000b5       data     static C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\usbdrv\usbdrv.c
+         usb_device_state   0x0000b6       data     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\usbmmap.c
+                 usb_stat   0x0000b7       data     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\usbmmap.c
+           usb_active_cfg   0x0000b8       data     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\usbmmap.c
+             usb_alt_intf   0x0000b9       data     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\usbmmap.c
+                 v_usbOUT   0x0000ba       data     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\main.c
+                        B   0x0000bb       data     static C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\main.c
+                   v_test   0x0000bc       data     static C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\main.c
+                    ep0Bo   0x000400       data     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\usbmmap.c
+                    ep0Bi   0x000404       data     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\usbmmap.c
+                    ep1Bo   0x000408       data     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\usbmmap.c
+                    ep1Bi   0x00040c       data     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\usbmmap.c
+                    ep2Bo   0x000410       data     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\usbmmap.c
+                    ep2Bi   0x000414       data     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\usbmmap.c
+                 SetupPkt   0x000418       data     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\usbmmap.c
+              CtrlTrfData   0x000420       data     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\usbmmap.c
+               usbgen_out   0x000428       data     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\usbmmap.c
+                usbgen_in   0x000430       data     extern C:\Documents and Settings\Administrateur\Bureau\B_firmware PIC_CNC\B_firmware PIC\B\system\usb\usbmmap.c
+                     UFRM   0x000f66       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                UFRMLbits   0x000f66       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                    UFRML   0x000f66       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                UFRMHbits   0x000f67       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                    UFRMH   0x000f67       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                  UIRbits   0x000f68       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                      UIR   0x000f68       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                  UIEbits   0x000f69       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                      UIE   0x000f69       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                 UEIRbits   0x000f6a       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                     UEIR   0x000f6a       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                     UEIE   0x000f6b       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                 UEIEbits   0x000f6b       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                USTATbits   0x000f6c       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                    USTAT   0x000f6c       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                     UCON   0x000f6d       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                 UCONbits   0x000f6d       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                UADDRbits   0x000f6e       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                    UADDR   0x000f6e       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                 UCFGbits   0x000f6f       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                     UCFG   0x000f6f       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                 UEP0bits   0x000f70       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                     UEP0   0x000f70       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                 UEP1bits   0x000f71       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                     UEP1   0x000f71       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                 UEP2bits   0x000f72       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                     UEP2   0x000f72       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                 UEP3bits   0x000f73       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                     UEP3   0x000f73       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                     UEP4   0x000f74       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                 UEP4bits   0x000f74       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                     UEP5   0x000f75       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                 UEP5bits   0x000f75       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                 UEP6bits   0x000f76       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                     UEP6   0x000f76       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                     UEP7   0x000f77       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                 UEP7bits   0x000f77       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                     UEP8   0x000f78       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                 UEP8bits   0x000f78       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                     UEP9   0x000f79       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                 UEP9bits   0x000f79       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                    UEP10   0x000f7a       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                UEP10bits   0x000f7a       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                    UEP11   0x000f7b       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                UEP11bits   0x000f7b       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                    UEP12   0x000f7c       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                UEP12bits   0x000f7c       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                    UEP13   0x000f7d       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                UEP13bits   0x000f7d       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                    UEP14   0x000f7e       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                UEP14bits   0x000f7e       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                UEP15bits   0x000f7f       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                    UEP15   0x000f7f       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                    PORTA   0x000f80       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                PORTAbits   0x000f80       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                PORTBbits   0x000f81       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                    PORTB   0x000f81       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                    PORTC   0x000f82       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                PORTCbits   0x000f82       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                    PORTE   0x000f84       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                PORTEbits   0x000f84       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                 LATAbits   0x000f89       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                     LATA   0x000f89       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                 LATBbits   0x000f8a       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                     LATB   0x000f8a       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                 LATCbits   0x000f8b       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                     LATC   0x000f8b       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                 DDRAbits   0x000f92       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                     DDRA   0x000f92       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                TRISAbits   0x000f92       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                    TRISA   0x000f92       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                    TRISB   0x000f93       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                TRISBbits   0x000f93       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                     DDRB   0x000f93       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                 DDRBbits   0x000f93       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                    TRISC   0x000f94       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                TRISCbits   0x000f94       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                     DDRC   0x000f94       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                 DDRCbits   0x000f94       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+              OSCTUNEbits   0x000f9b       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                  OSCTUNE   0x000f9b       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                     PIE1   0x000f9d       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                 PIE1bits   0x000f9d       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                     PIR1   0x000f9e       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                 PIR1bits   0x000f9e       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                 IPR1bits   0x000f9f       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                     IPR1   0x000f9f       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                     PIE2   0x000fa0       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                 PIE2bits   0x000fa0       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                     PIR2   0x000fa1       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                 PIR2bits   0x000fa1       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                     IPR2   0x000fa2       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                 IPR2bits   0x000fa2       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                   EECON1   0x000fa6       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+               EECON1bits   0x000fa6       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                   EECON2   0x000fa7       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                   EEDATA   0x000fa8       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                    EEADR   0x000fa9       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                    RCSTA   0x000fab       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                RCSTAbits   0x000fab       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                TXSTAbits   0x000fac       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                    TXSTA   0x000fac       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                    TXREG   0x000fad       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                    RCREG   0x000fae       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                    SPBRG   0x000faf       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                   SPBRGH   0x000fb0       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                    T3CON   0x000fb1       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                T3CONbits   0x000fb1       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                    TMR3L   0x000fb2       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                    TMR3H   0x000fb3       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                CMCONbits   0x000fb4       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                    CMCON   0x000fb4       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+               CVRCONbits   0x000fb5       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                   CVRCON   0x000fb5       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                   CCP1AS   0x000fb6       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+               CCP1ASbits   0x000fb6       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+              ECCP1ASbits   0x000fb6       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                  ECCP1AS   0x000fb6       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+             ECCP1DELbits   0x000fb7       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                 ECCP1DEL   0x000fb7       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                  CCP1DEL   0x000fb7       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+              CCP1DELbits   0x000fb7       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                  BAUDCON   0x000fb8       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+              BAUDCONbits   0x000fb8       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+              CCP2CONbits   0x000fba       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                  CCP2CON   0x000fba       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                    CCPR2   0x000fbb       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                   CCPR2L   0x000fbb       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                   CCPR2H   0x000fbc       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+              CCP1CONbits   0x000fbd       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                  CCP1CON   0x000fbd       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                   CCPR1L   0x000fbe       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                    CCPR1   0x000fbe       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                   CCPR1H   0x000fbf       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                   ADCON2   0x000fc0       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+               ADCON2bits   0x000fc0       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+               ADCON1bits   0x000fc1       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                   ADCON1   0x000fc1       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                   ADCON0   0x000fc2       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+               ADCON0bits   0x000fc2       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                   ADRESL   0x000fc3       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                    ADRES   0x000fc3       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                   ADRESH   0x000fc4       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+              SSPCON2bits   0x000fc5       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                  SSPCON2   0x000fc5       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+              SSPCON1bits   0x000fc6       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                  SSPCON1   0x000fc6       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+              SSPSTATbits   0x000fc7       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                  SSPSTAT   0x000fc7       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                   SSPADD   0x000fc8       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                   SSPBUF   0x000fc9       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                    T2CON   0x000fca       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                T2CONbits   0x000fca       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                      PR2   0x000fcb       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                     TMR2   0x000fcc       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                T1CONbits   0x000fcd       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                    T1CON   0x000fcd       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                    TMR1L   0x000fce       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                    TMR1H   0x000fcf       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                     RCON   0x000fd0       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                 RCONbits   0x000fd0       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                   WDTCON   0x000fd1       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+               WDTCONbits   0x000fd1       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                  HLVDCON   0x000fd2       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+              HLVDCONbits   0x000fd2       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                   LVDCON   0x000fd2       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+               LVDCONbits   0x000fd2       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+               OSCCONbits   0x000fd3       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                   OSCCON   0x000fd3       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                T0CONbits   0x000fd5       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                    T0CON   0x000fd5       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                    TMR0L   0x000fd6       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                    TMR0H   0x000fd7       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+               STATUSbits   0x000fd8       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                   STATUS   0x000fd8       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                    FSR2L   0x000fd9       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                     FSR2   0x000fd9       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                    FSR2H   0x000fda       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                   PLUSW2   0x000fdb       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                  PREINC2   0x000fdc       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                 POSTDEC2   0x000fdd       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                 POSTINC2   0x000fde       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                    INDF2   0x000fdf       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                      BSR   0x000fe0       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                     FSR1   0x000fe1       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                    FSR1L   0x000fe1       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                    FSR1H   0x000fe2       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                   PLUSW1   0x000fe3       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                  PREINC1   0x000fe4       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                 POSTDEC1   0x000fe5       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                 POSTINC1   0x000fe6       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                    INDF1   0x000fe7       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                     WREG   0x000fe8       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                    FSR0L   0x000fe9       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                     FSR0   0x000fe9       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                    FSR0H   0x000fea       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                   PLUSW0   0x000feb       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                  PREINC0   0x000fec       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                 POSTDEC0   0x000fed       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                 POSTINC0   0x000fee       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                    INDF0   0x000fef       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+              INTCON3bits   0x000ff0       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                  INTCON3   0x000ff0       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+              INTCON2bits   0x000ff1       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                  INTCON2   0x000ff1       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+               INTCONbits   0x000ff2       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                   INTCON   0x000ff2       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                    PRODL   0x000ff3       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                     PROD   0x000ff3       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                    PRODH   0x000ff4       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                   TABLAT   0x000ff5       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                   TBLPTR   0x000ff6       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                  TBLPTRL   0x000ff6       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                  TBLPTRH   0x000ff7       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                  TBLPTRU   0x000ff8       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                       PC   0x000ff9       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                      PCL   0x000ff9       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                   PCLATH   0x000ffa       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                   PCLATU   0x000ffb       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                   STKPTR   0x000ffc       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+               STKPTRbits   0x000ffc       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                      TOS   0x000ffd       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                     TOSL   0x000ffd       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                     TOSH   0x000ffe       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+                     TOSU   0x000fff       data     extern C:\MCC18\src\traditional\proc\p18F2455.asm
+
+

@@ -1,0 +1,82 @@
+﻿30.01.09
+--------
+vitesse maxi si Z>=0
+selectedIndex centré dans lBoxFichier
+ajout listBox A Propos De
+ 
+31.01.09
+--------
+utilisation linq pour mettre à jour Params Axes
+ajout pBoxPhoto sur AProposDe
+ 
+09.02.09
+--------
+ajout LOG.txt
+suppression delegate affichage temps periode usinage dans c_usinage qui ralentit ordi
+ 
+04.03.09
+--------
+creation class pour usinage, dessin, IOW
+traitement direct IOW.dll
+ 
+10.06.09
+--------
+class iowUSB30.01.09
+--------
+vitesse maxi si Z>=0
+selectedIndex centré dans lBoxFichier
+ajout listBox A Propos De
+ 
+31.01.09
+--------
+utilisation linq pour mettre à jour Params Axes
+ajout pBoxPhoto sur AProposDe
+ 
+09.02.09
+--------
+ajout LOG.txt
+suppression delegate affichage temps periode usinage dans c_usinage qui ralentit ordi
+ 
+04.03.09
+--------
+creation class pour usinage, dessin, IOW
+traitement direct IOW.dll
+ 
+10.06.09
+--------
+class iowUSB
+ 
+30.06.09
+--------
+traite vitesse usinage dans ISO
+"V01 XX.;" -> 0 à 100% di vitesse maxi
+ 
+11.12.09
+--------
+ajout arret usinage si touche pressée
+ 
+26.12.09
+--------
+creation demarrege et arret progressif
+ 
+27.01.10
+--------
+creation buffer usinage
+gestion port //
+ 
+28.01.10
+--------
+repasse commande pas par USB ...
+ 
+12.01.12
+--------
+correction erreur micro angles
+ajout bouton Retour Origine
+ 
+05.03.12
+--------
+validation invertion sens
+ 
+
+ 
+ 

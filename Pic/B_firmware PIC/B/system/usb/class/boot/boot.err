@@ -1,0 +1,25 @@
+Error[1105] C:\Documents and Settings\Administrateur\Bureau\Copie (2) de B\B\system\usb\class\boot\boot.c 89 : symbol 'WAIT_FOR_CMD' has not been defined
+Error[1105] C:\Documents and Settings\Administrateur\Bureau\Copie (2) de B\B\system\usb\class\boot\boot.c 90 : symbol 'BOOT_UEP' has not been defined
+Error[1101] C:\Documents and Settings\Administrateur\Bureau\Copie (2) de B\B\system\usb\class\boot\boot.c 90 : lvalue required
+Error[1105] C:\Documents and Settings\Administrateur\Bureau\Copie (2) de B\B\system\usb\class\boot\boot.c 103 : symbol 'BOOT_BD_OUT' has not been defined
+Error[1151] C:\Documents and Settings\Administrateur\Bureau\Copie (2) de B\B\system\usb\class\boot\boot.c 103 : struct or union object designator expected
+Error[1105] C:\Documents and Settings\Administrateur\Bureau\Copie (2) de B\B\system\usb\class\boot\boot.c 103 : symbol 'dataPacket' has not been defined
+Error[1101] C:\Documents and Settings\Administrateur\Bureau\Copie (2) de B\B\system\usb\class\boot\boot.c 103 : lvalue required
+Error[1105] C:\Documents and Settings\Administrateur\Bureau\Copie (2) de B\B\system\usb\class\boot\boot.c 104 : symbol 'BOOT_BD_OUT' has not been defined
+Error[1151] C:\Documents and Settings\Administrateur\Bureau\Copie (2) de B\B\system\usb\class\boot\boot.c 104 : struct or union object designator expected
+Error[1105] C:\Documents and Settings\Administrateur\Bureau\Copie (2) de B\B\system\usb\class\boot\boot.c 104 : symbol 'dataPacket' has not been defined
+Error[1101] C:\Documents and Settings\Administrateur\Bureau\Copie (2) de B\B\system\usb\class\boot\boot.c 104 : lvalue required
+Error[1101] C:\Documents and Settings\Administrateur\Bureau\Copie (2) de B\B\system\usb\class\boot\boot.c 104 : lvalue required
+Error[1105] C:\Documents and Settings\Administrateur\Bureau\Copie (2) de B\B\system\usb\class\boot\boot.c 105 : symbol 'BOOT_BD_OUT' has not been defined
+Error[1151] C:\Documents and Settings\Administrateur\Bureau\Copie (2) de B\B\system\usb\class\boot\boot.c 105 : struct or union object designator expected
+Error[1151] C:\Documents and Settings\Administrateur\Bureau\Copie (2) de B\B\system\usb\class\boot\boot.c 105 : struct or union object designator expected
+Error[1101] C:\Documents and Settings\Administrateur\Bureau\Copie (2) de B\B\system\usb\class\boot\boot.c 105 : lvalue required
+Error[1105] C:\Documents and Settings\Administrateur\Bureau\Copie (2) de B\B\system\usb\class\boot\boot.c 107 : symbol 'BOOT_BD_IN' has not been defined
+Error[1151] C:\Documents and Settings\Administrateur\Bureau\Copie (2) de B\B\system\usb\class\boot\boot.c 107 : struct or union object designator expected
+Error[1105] C:\Documents and Settings\Administrateur\Bureau\Copie (2) de B\B\system\usb\class\boot\boot.c 107 : symbol 'dataPacket' has not been defined
+Error[1101] C:\Documents and Settings\Administrateur\Bureau\Copie (2) de B\B\system\usb\class\boot\boot.c 107 : lvalue required
+Error[1101] C:\Documents and Settings\Administrateur\Bureau\Copie (2) de B\B\system\usb\class\boot\boot.c 107 : lvalue required
+Error[1105] C:\Documents and Settings\Administrateur\Bureau\Copie (2) de B\B\system\usb\class\boot\boot.c 108 : symbol 'BOOT_BD_IN' has not been defined
+Error[1151] C:\Documents and Settings\Administrateur\Bureau\Copie (2) de B\B\system\usb\class\boot\boot.c 108 : struct or union object designator expected
+Error[1151] C:\Documents and Settings\Administrateur\Bureau\Copie (2) de B\B\system\usb\class\boot\boot.c 108 : struct or union object designator expected
+Error[1101] C:\Documents and Settings\Administrateur\Bureau\Copie (2) de B\B\system\usb\class\boot\boot.c 108 : lvalue required

@@ -1,0 +1,5 @@
+﻿firm 2.0
+--------
+ 
+gestion fraction de pas (1/8)
+reglage externe pulse High, Low, Idle

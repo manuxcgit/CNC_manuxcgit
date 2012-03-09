@@ -1,0 +1,274 @@
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_bas\obj\Debug\Interop.WMPLib.dll
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_bas\obj\Debug\AxInterop.WMPLib.dll
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_bas\obj\Debug\CNC.csproj.ResolveComReference.cache
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_bas\bin\Debug\ControlsManuXc.pdb
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_bas\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_bas\obj\Debug\CNC.formMain.resources
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_bas\obj\Debug\CNC.Properties.Resources.resources
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_bas\obj\Debug\CNC.csproj.GenerateResource.Cache
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_bas\obj\Debug\CNC.exe
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_bas\obj\Debug\CNC.pdb
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_bas\bin\Debug\CNC.exe
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_bas\bin\Debug\CNC.pdb
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_bas\bin\Debug\Interop.WMPLib.dll
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_bas\bin\Debug\AxInterop.WMPLib.dll
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_140110_1\obj\Debug\Interop.WMPLib.dll
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_140110_1\obj\Debug\AxInterop.WMPLib.dll
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_140110_1\obj\Debug\CNC.csproj.ResolveComReference.cache
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_140110_1\obj\Debug\CNC.exe
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_140110_1\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_140110_1\obj\Debug\CNC.formMain.resources
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_140110_1\obj\Debug\CNC.Properties.Resources.resources
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_140110_1\obj\Debug\CNC.csproj.GenerateResource.Cache
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_140110_1\bin\Debug\CNC.exe
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_140110_1\bin\Debug\CNC.pdb
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_140110_1\bin\Debug\ControlsManuXc.pdb
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_140110_1\bin\Debug\Interop.WMPLib.dll
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_140110_1\bin\Debug\AxInterop.WMPLib.dll
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_140110_1\obj\Debug\CNC.pdb
+C:\Users\PcPlacard\Desktop\CNC_1_1801201\CNC_1_1801201\obj\Debug\Interop.WMPLib.dll
+C:\Users\PcPlacard\Desktop\CNC_1_1801201\CNC_1_1801201\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\PcPlacard\Desktop\CNC_1_1801201\CNC_1_1801201\obj\Debug\CNC.csproj.ResolveComReference.cache
+C:\Users\PcPlacard\Desktop\CNC_1_1801201\CNC_1_1801201\obj\Debug\CNC.exe
+C:\Users\PcPlacard\Desktop\CNC_1_1801201\CNC_1_1801201\obj\Debug\CNC.pdb
+C:\Users\PcPlacard\Desktop\CNC_1_1801201\CNC_1_1801201\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\PcPlacard\Desktop\CNC_1_1801201\CNC_1_1801201\obj\Debug\CNC.formMain.resources
+C:\Users\PcPlacard\Desktop\CNC_1_1801201\CNC_1_1801201\obj\Debug\CNC.formTest.resources
+C:\Users\PcPlacard\Desktop\CNC_1_1801201\CNC_1_1801201\obj\Debug\CNC.Properties.Resources.resources
+C:\Users\PcPlacard\Desktop\CNC_1_1801201\CNC_1_1801201\obj\Debug\CNC.csproj.GenerateResource.Cache
+C:\Users\PcPlacard\Desktop\CNC_1_1801201\CNC_1_1801201\bin\Debug\CNC.exe
+C:\Users\PcPlacard\Desktop\CNC_1_1801201\CNC_1_1801201\bin\Debug\CNC.pdb
+C:\Users\PcPlacard\Desktop\CNC_1_1801201\CNC_1_1801201\bin\Debug\ControlsManuXc.pdb
+C:\Users\PcPlacard\Desktop\CNC_1_1801201\CNC_1_1801201\bin\Debug\Interop.WMPLib.dll
+C:\Users\PcPlacard\Desktop\CNC_1_1801201\CNC_1_1801201\bin\Debug\AxInterop.WMPLib.dll
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_2001201\obj\Debug\Interop.WMPLib.dll
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_2001201\obj\Debug\AxInterop.WMPLib.dll
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_2001201\obj\Debug\CNC.csproj.ResolveComReference.cache
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_2001201\obj\Debug\CNC.exe
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_2001201\obj\Debug\CNC.pdb
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_2001201\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_2001201\obj\Debug\CNC.formMain.resources
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_2001201\obj\Debug\CNC.formTest.resources
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_2001201\obj\Debug\CNC.Properties.Resources.resources
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_2001201\obj\Debug\CNC.csproj.GenerateResource.Cache
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_2001201\bin\Debug\CNC.exe
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_2001201\bin\Debug\CNC.pdb
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_2001201\bin\Debug\ControlsManuXc.pdb
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_2001201\bin\Debug\Interop.WMPLib.dll
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_2001201\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\PcPlacard\Desktop\CNC_1_2101201\CNC_1_2101201\obj\Debug\Interop.WMPLib.dll
+C:\Users\PcPlacard\Desktop\CNC_1_2101201\CNC_1_2101201\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\PcPlacard\Desktop\CNC_1_2101201\CNC_1_2101201\obj\Debug\CNC.csproj.ResolveComReference.cache
+C:\Users\PcPlacard\Desktop\CNC_1_2101201\CNC_1_2101201\obj\Debug\CNC.exe
+C:\Users\PcPlacard\Desktop\CNC_1_2101201\CNC_1_2101201\obj\Debug\CNC.pdb
+C:\Users\PcPlacard\Desktop\CNC_1_2101201\CNC_1_2101201\bin\Debug\CNC.exe
+C:\Users\PcPlacard\Desktop\CNC_1_2101201\CNC_1_2101201\bin\Debug\CNC.pdb
+C:\Users\PcPlacard\Desktop\CNC_1_2101201\CNC_1_2101201\bin\Debug\Interop.WMPLib.dll
+C:\Users\PcPlacard\Desktop\CNC_1_2101201\CNC_1_2101201\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\PcPlacard\Desktop\CNC_1_2101201\CNC_1_2101201\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\PcPlacard\Desktop\CNC_1_2101201\CNC_1_2101201\obj\Debug\CNC.formMain.resources
+C:\Users\PcPlacard\Desktop\CNC_1_2101201\CNC_1_2101201\obj\Debug\CNC.formTest.resources
+C:\Users\PcPlacard\Desktop\CNC_1_2101201\CNC_1_2101201\obj\Debug\CNC.Properties.Resources.resources
+C:\Users\PcPlacard\Desktop\CNC_1_2101201\CNC_1_2101201\obj\Debug\CNC.csproj.GenerateResource.Cache
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_2201201\CNC_1_2201201\bin\Debug\CNC.exe
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_2201201\CNC_1_2201201\bin\Debug\CNC.pdb
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_2201201\CNC_1_2201201\bin\Debug\Interop.WMPLib.dll
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_2201201\CNC_1_2201201\bin\Debug\AxInterop.WMPLib.dll
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_2201201\CNC_1_2201201\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_2201201\CNC_1_2201201\obj\Debug\Interop.WMPLib.dll
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_2201201\CNC_1_2201201\obj\Debug\AxInterop.WMPLib.dll
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_2201201\CNC_1_2201201\obj\Debug\CNC.csproj.ResolveComReference.cache
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_2201201\CNC_1_2201201\obj\Debug\CNC.formMain.resources
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_2201201\CNC_1_2201201\obj\Debug\CNC.formTest.resources
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_2201201\CNC_1_2201201\obj\Debug\CNC.Properties.Resources.resources
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_2201201\CNC_1_2201201\obj\Debug\CNC.csproj.GenerateResource.Cache
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_2201201\CNC_1_2201201\obj\Debug\CNC.exe
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_2201201\CNC_1_2201201\obj\Debug\CNC.pdb
+C:\Users\PcPlacard\Desktop\CNC_1_2301201\CNC_1_2301201\CNC_1_2201201\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\PcPlacard\Desktop\CNC_1_2301201\CNC_1_2301201\CNC_1_2201201\obj\Debug\Interop.WMPLib.dll
+C:\Users\PcPlacard\Desktop\CNC_1_2301201\CNC_1_2301201\CNC_1_2201201\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\PcPlacard\Desktop\CNC_1_2301201\CNC_1_2301201\CNC_1_2201201\obj\Debug\CNC.csproj.ResolveComReference.cache
+C:\Users\PcPlacard\Desktop\CNC_1_2301201\CNC_1_2301201\CNC_1_2201201\obj\Debug\CNC.formMain.resources
+C:\Users\PcPlacard\Desktop\CNC_1_2301201\CNC_1_2301201\CNC_1_2201201\obj\Debug\CNC.formTest.resources
+C:\Users\PcPlacard\Desktop\CNC_1_2301201\CNC_1_2301201\CNC_1_2201201\obj\Debug\CNC.Properties.Resources.resources
+C:\Users\PcPlacard\Desktop\CNC_1_2301201\CNC_1_2301201\CNC_1_2201201\obj\Debug\CNC.csproj.GenerateResource.Cache
+C:\Users\PcPlacard\Desktop\CNC_1_2301201\CNC_1_2301201\CNC_1_2201201\obj\Debug\CNC.exe
+C:\Users\PcPlacard\Desktop\CNC_1_2301201\CNC_1_2301201\CNC_1_2201201\bin\Debug\CNC.exe
+C:\Users\PcPlacard\Desktop\CNC_1_2301201\CNC_1_2301201\CNC_1_2201201\bin\Debug\CNC.pdb
+C:\Users\PcPlacard\Desktop\CNC_1_2301201\CNC_1_2301201\CNC_1_2201201\bin\Debug\Interop.WMPLib.dll
+C:\Users\PcPlacard\Desktop\CNC_1_2301201\CNC_1_2301201\CNC_1_2201201\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\PcPlacard\Desktop\CNC_1_2301201\CNC_1_2301201\CNC_1_2201201\obj\Debug\CNC.pdb
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_2401201\bin\Debug\CNC.exe
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_2401201\bin\Debug\CNC.pdb
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_2401201\bin\Debug\Interop.WMPLib.dll
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_2401201\bin\Debug\AxInterop.WMPLib.dll
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_2401201\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_2401201\obj\Debug\Interop.WMPLib.dll
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_2401201\obj\Debug\AxInterop.WMPLib.dll
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_2401201\obj\Debug\CNC.csproj.ResolveComReference.cache
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_2401201\obj\Debug\CNC.formMain.resources
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_2401201\obj\Debug\CNC.formTest.resources
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_2401201\obj\Debug\CNC.Properties.Resources.resources
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_2401201\obj\Debug\CNC.csproj.GenerateResource.Cache
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_2401201\obj\Debug\CNC.exe
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_2401201\obj\Debug\CNC.pdb
+C:\Users\PcPlacard\Desktop\CNC_1_2401201\CNC_1_2401201\bin\Debug\CNC.exe
+C:\Users\PcPlacard\Desktop\CNC_1_2401201\CNC_1_2401201\bin\Debug\CNC.pdb
+C:\Users\PcPlacard\Desktop\CNC_1_2401201\CNC_1_2401201\bin\Debug\Interop.WMPLib.dll
+C:\Users\PcPlacard\Desktop\CNC_1_2401201\CNC_1_2401201\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\PcPlacard\Desktop\CNC_1_2401201\CNC_1_2401201\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\PcPlacard\Desktop\CNC_1_2401201\CNC_1_2401201\obj\Debug\Interop.WMPLib.dll
+C:\Users\PcPlacard\Desktop\CNC_1_2401201\CNC_1_2401201\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\PcPlacard\Desktop\CNC_1_2401201\CNC_1_2401201\obj\Debug\CNC.csproj.ResolveComReference.cache
+C:\Users\PcPlacard\Desktop\CNC_1_2401201\CNC_1_2401201\obj\Debug\CNC.formMain.resources
+C:\Users\PcPlacard\Desktop\CNC_1_2401201\CNC_1_2401201\obj\Debug\CNC.formTest.resources
+C:\Users\PcPlacard\Desktop\CNC_1_2401201\CNC_1_2401201\obj\Debug\CNC.Properties.Resources.resources
+C:\Users\PcPlacard\Desktop\CNC_1_2401201\CNC_1_2401201\obj\Debug\CNC.csproj.GenerateResource.Cache
+C:\Users\PcPlacard\Desktop\CNC_1_2401201\CNC_1_2401201\obj\Debug\CNC.exe
+C:\Users\PcPlacard\Desktop\CNC_1_2401201\CNC_1_2401201\obj\Debug\CNC.pdb
+C:\Users\PcPlacard\Desktop\CNC_1_2501201\CNC_1_2401201\bin\Debug\CNC.exe
+C:\Users\PcPlacard\Desktop\CNC_1_2501201\CNC_1_2401201\bin\Debug\CNC.pdb
+C:\Users\PcPlacard\Desktop\CNC_1_2501201\CNC_1_2401201\bin\Debug\Interop.WMPLib.dll
+C:\Users\PcPlacard\Desktop\CNC_1_2501201\CNC_1_2401201\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\PcPlacard\Desktop\CNC_1_2501201\CNC_1_2401201\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\PcPlacard\Desktop\CNC_1_2501201\CNC_1_2401201\obj\Debug\Interop.WMPLib.dll
+C:\Users\PcPlacard\Desktop\CNC_1_2501201\CNC_1_2401201\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\PcPlacard\Desktop\CNC_1_2501201\CNC_1_2401201\obj\Debug\CNC.csproj.ResolveComReference.cache
+C:\Users\PcPlacard\Desktop\CNC_1_2501201\CNC_1_2401201\obj\Debug\CNC.formMain.resources
+C:\Users\PcPlacard\Desktop\CNC_1_2501201\CNC_1_2401201\obj\Debug\CNC.formTest.resources
+C:\Users\PcPlacard\Desktop\CNC_1_2501201\CNC_1_2401201\obj\Debug\CNC.Properties.Resources.resources
+C:\Users\PcPlacard\Desktop\CNC_1_2501201\CNC_1_2401201\obj\Debug\CNC.csproj.GenerateResource.Cache
+C:\Users\PcPlacard\Desktop\CNC_1_2501201\CNC_1_2401201\obj\Debug\CNC.exe
+C:\Users\PcPlacard\Desktop\CNC_1_2501201\CNC_1_2401201\obj\Debug\CNC.pdb
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_2601201\CNC_1_2601201\CNC_1_2401201\bin\Debug\CNC.exe
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_2601201\CNC_1_2601201\CNC_1_2401201\bin\Debug\CNC.pdb
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_2601201\CNC_1_2601201\CNC_1_2401201\bin\Debug\Interop.WMPLib.dll
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_2601201\CNC_1_2601201\CNC_1_2401201\bin\Debug\AxInterop.WMPLib.dll
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_2601201\CNC_1_2601201\CNC_1_2401201\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_2601201\CNC_1_2601201\CNC_1_2401201\obj\Debug\Interop.WMPLib.dll
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_2601201\CNC_1_2601201\CNC_1_2401201\obj\Debug\AxInterop.WMPLib.dll
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_2601201\CNC_1_2601201\CNC_1_2401201\obj\Debug\CNC.csproj.ResolveComReference.cache
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_2601201\CNC_1_2601201\CNC_1_2401201\obj\Debug\CNC.formMain.resources
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_2601201\CNC_1_2601201\CNC_1_2401201\obj\Debug\CNC.formTest.resources
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_2601201\CNC_1_2601201\CNC_1_2401201\obj\Debug\CNC.Properties.Resources.resources
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_2601201\CNC_1_2601201\CNC_1_2401201\obj\Debug\CNC.csproj.GenerateResource.Cache
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_2601201\CNC_1_2601201\CNC_1_2401201\obj\Debug\CNC.exe
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_2601201\CNC_1_2601201\CNC_1_2401201\obj\Debug\CNC.pdb
+C:\Users\PcPlacard\Desktop\CNC_1_2701201\CNC_1_2701201\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\PcPlacard\Desktop\CNC_1_2701201\CNC_1_2701201\obj\Debug\Interop.WMPLib.dll
+C:\Users\PcPlacard\Desktop\CNC_1_2701201\CNC_1_2701201\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\PcPlacard\Desktop\CNC_1_2701201\CNC_1_2701201\obj\Debug\CNC.csproj.ResolveComReference.cache
+C:\Users\PcPlacard\Desktop\CNC_1_2701201\CNC_1_2701201\obj\Debug\CNC.formMain.resources
+C:\Users\PcPlacard\Desktop\CNC_1_2701201\CNC_1_2701201\obj\Debug\CNC.formTest.resources
+C:\Users\PcPlacard\Desktop\CNC_1_2701201\CNC_1_2701201\obj\Debug\CNC.Properties.Resources.resources
+C:\Users\PcPlacard\Desktop\CNC_1_2701201\CNC_1_2701201\obj\Debug\CNC.csproj.GenerateResource.Cache
+C:\Users\PcPlacard\Desktop\CNC_1_2701201\CNC_1_2701201\obj\Debug\CNC.exe
+C:\Users\PcPlacard\Desktop\CNC_1_2701201\CNC_1_2701201\bin\Debug\CNC.exe
+C:\Users\PcPlacard\Desktop\CNC_1_2701201\CNC_1_2701201\bin\Debug\CNC.pdb
+C:\Users\PcPlacard\Desktop\CNC_1_2701201\CNC_1_2701201\bin\Debug\Interop.WMPLib.dll
+C:\Users\PcPlacard\Desktop\CNC_1_2701201\CNC_1_2701201\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\PcPlacard\Desktop\CNC_1_2701201\CNC_1_2701201\obj\Debug\CNC.pdb
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_2701201\CNC_1_2701201\CNC_1_2701201\bin\Debug\CNC.exe
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_2701201\CNC_1_2701201\CNC_1_2701201\bin\Debug\CNC.pdb
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_2701201\CNC_1_2701201\CNC_1_2701201\bin\Debug\Interop.WMPLib.dll
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_2701201\CNC_1_2701201\CNC_1_2701201\bin\Debug\AxInterop.WMPLib.dll
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_2701201\CNC_1_2701201\CNC_1_2701201\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_2701201\CNC_1_2701201\CNC_1_2701201\obj\Debug\Interop.WMPLib.dll
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_2701201\CNC_1_2701201\CNC_1_2701201\obj\Debug\AxInterop.WMPLib.dll
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_2701201\CNC_1_2701201\CNC_1_2701201\obj\Debug\CNC.csproj.ResolveComReference.cache
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_2701201\CNC_1_2701201\CNC_1_2701201\obj\Debug\CNC.formMain.resources
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_2701201\CNC_1_2701201\CNC_1_2701201\obj\Debug\CNC.formTest.resources
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_2701201\CNC_1_2701201\CNC_1_2701201\obj\Debug\CNC.Properties.Resources.resources
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_2701201\CNC_1_2701201\CNC_1_2701201\obj\Debug\CNC.csproj.GenerateResource.Cache
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_2701201\CNC_1_2701201\CNC_1_2701201\obj\Debug\CNC.exe
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_2701201\CNC_1_2701201\CNC_1_2701201\obj\Debug\CNC.pdb
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_2701201\CNC_1_2701201\bin\Debug\CNC.exe
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_2701201\CNC_1_2701201\bin\Debug\CNC.pdb
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_2701201\CNC_1_2701201\bin\Debug\Interop.WMPLib.dll
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_2701201\CNC_1_2701201\bin\Debug\AxInterop.WMPLib.dll
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_2701201\CNC_1_2701201\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_2701201\CNC_1_2701201\obj\Debug\Interop.WMPLib.dll
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_2701201\CNC_1_2701201\obj\Debug\AxInterop.WMPLib.dll
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_2701201\CNC_1_2701201\obj\Debug\CNC.csproj.ResolveComReference.cache
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_2701201\CNC_1_2701201\obj\Debug\CNC.formMain.resources
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_2701201\CNC_1_2701201\obj\Debug\CNC.formTest.resources
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_2701201\CNC_1_2701201\obj\Debug\CNC.Properties.Resources.resources
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_2701201\CNC_1_2701201\obj\Debug\CNC.csproj.GenerateResource.Cache
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_2701201\CNC_1_2701201\obj\Debug\CNC.exe
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_2701201\CNC_1_2701201\obj\Debug\CNC.pdb
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_2701201\CNC_1_2701201\obj\Debug\CNC.formCorrection.resources
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_01022010\bin\Debug\CNC.exe
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_01022010\bin\Debug\CNC.pdb
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_01022010\bin\Debug\Interop.WMPLib.dll
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_01022010\bin\Debug\AxInterop.WMPLib.dll
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_01022010\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_01022010\obj\Debug\Interop.WMPLib.dll
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_01022010\obj\Debug\AxInterop.WMPLib.dll
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_01022010\obj\Debug\CNC.csproj.ResolveComReference.cache
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_01022010\obj\Debug\CNC.formCorrection.resources
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_01022010\obj\Debug\CNC.formMain.resources
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_01022010\obj\Debug\CNC.formTest.resources
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_01022010\obj\Debug\CNC.Properties.Resources.resources
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_01022010\obj\Debug\CNC.csproj.GenerateResource.Cache
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_01022010\obj\Debug\CNC.exe
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_01022010\obj\Debug\CNC.pdb
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_03022010\bin\Debug\CNC.exe
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_03022010\bin\Debug\CNC.pdb
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_03022010\bin\Debug\Interop.WMPLib.dll
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_03022010\bin\Debug\AxInterop.WMPLib.dll
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_03022010\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_03022010\obj\Debug\Interop.WMPLib.dll
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_03022010\obj\Debug\AxInterop.WMPLib.dll
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_03022010\obj\Debug\CNC.csproj.ResolveComReference.cache
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_03022010\obj\Debug\CNC.formCorrection.resources
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_03022010\obj\Debug\CNC.formMain.resources
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_03022010\obj\Debug\CNC.formTest.resources
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_03022010\obj\Debug\CNC.Properties.Resources.resources
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_03022010\obj\Debug\CNC.csproj.GenerateResource.Cache
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_03022010\obj\Debug\CNC.exe
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_03022010\obj\Debug\CNC.pdb
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_04022010\bin\Debug\CNC.exe
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_04022010\bin\Debug\CNC.pdb
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_04022010\bin\Debug\Interop.WMPLib.dll
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_04022010\bin\Debug\AxInterop.WMPLib.dll
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_04022010\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_04022010\obj\Debug\Interop.WMPLib.dll
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_04022010\obj\Debug\AxInterop.WMPLib.dll
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_04022010\obj\Debug\CNC.csproj.ResolveComReference.cache
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_04022010\obj\Debug\CNC.formCorrection.resources
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_04022010\obj\Debug\CNC.formMain.resources
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_04022010\obj\Debug\CNC.formTest.resources
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_04022010\obj\Debug\CNC.Properties.Resources.resources
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_04022010\obj\Debug\CNC.csproj.GenerateResource.Cache
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_04022010\obj\Debug\CNC.exe
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_04022010\obj\Debug\CNC.pdb
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_06022010\bin\Debug\CNC.exe
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_06022010\bin\Debug\CNC.pdb
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_06022010\bin\Debug\Interop.WMPLib.dll
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_06022010\bin\Debug\AxInterop.WMPLib.dll
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_06022010\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_06022010\obj\Debug\Interop.WMPLib.dll
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_06022010\obj\Debug\AxInterop.WMPLib.dll
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_06022010\obj\Debug\CNC.csproj.ResolveComReference.cache
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_06022010\obj\Debug\CNC.formCorrection.resources
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_06022010\obj\Debug\CNC.formMain.resources
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_06022010\obj\Debug\CNC.formTest.resources
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_06022010\obj\Debug\CNC.Properties.Resources.resources
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_06022010\obj\Debug\CNC.csproj.GenerateResource.Cache
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_06022010\obj\Debug\CNC.exe
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_06022010\obj\Debug\CNC.pdb
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_18012012\bin\Debug\CNC.exe
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_18012012\bin\Debug\CNC.pdb
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_18012012\bin\Debug\Interop.WMPLib.dll
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_18012012\bin\Debug\AxInterop.WMPLib.dll
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_18012012\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_18012012\obj\Debug\Interop.WMPLib.dll
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_18012012\obj\Debug\AxInterop.WMPLib.dll
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_18012012\obj\Debug\CNC.csproj.ResolveComReference.cache
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_18012012\obj\Debug\CNC.formCorrection.resources
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_18012012\obj\Debug\CNC.formMain.resources
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_18012012\obj\Debug\CNC.formTest.resources
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_18012012\obj\Debug\CNC.Properties.Resources.resources
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_18012012\obj\Debug\CNC.csproj.GenerateResource.Cache
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_18012012\obj\Debug\CNC.exe
+C:\Documents and Settings\Administrateur\Bureau\CNC_1_18012012\obj\Debug\CNC.pdb
